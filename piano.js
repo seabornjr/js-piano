@@ -9,7 +9,7 @@
     'A3', 'Bb3', 'B3', 'C4', 'Db4', 'D4', 'Eb4', 'E4', 'F4', 'Gb4', 'G4', 'Ab4',
     'A4', 'Bb4', 'B4', 'C5'
   ];
-
+//Feature 2 WORK IN PROGRESS
   /* Corresponding keyboard keycodes, in order w/ 'keys'. */
   /* QWERTY layout:
   /*   upper register: Q -> P, with 1-0 as black keys. */
@@ -75,7 +75,7 @@
       }
     }
     $(pianoClass(key)).animate({
-      'backgroundColor': '#88FFAA'
+      'backgroundColor': '#BF6C31'
     }, 0);
   };
 
